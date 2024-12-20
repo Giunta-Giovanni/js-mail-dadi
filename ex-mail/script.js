@@ -27,13 +27,9 @@ for (let i = 0; i < n; i++) {
 // se dopo il for la variabile non ha cambiato lo stato significa che la richiesta non è stata trovata
 if (trovato === false) {
 
+    //se no, stampa un messaggio che dice che l'utente non è registrato
+
     console.log("l'utente non è registrato");
     
     
 }
-
-
-
-
-//         - se si stampa un messaggio che dice che l'utente non si trova nella lista
-// chiudere un ciclo for
