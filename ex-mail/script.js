@@ -4,6 +4,8 @@
 // - creazione di una lista array per inserire le email
 const emails = ['anna.mancini87@example.com', 'luca.rossi92@example.com', 'giulia.verdi2024@example.com','marco.bianchi123@example.com', 'francesca.neri88@example.com'];
 console.log(emails);
+
+// generare una variabile che salva la lunghezza della lista
 const n = emails.length; 
 
 //  utilizzare un prompt per chiedere l'inserimento della email
@@ -30,6 +32,4 @@ if (trovato === false) {
     //se no, stampa un messaggio che dice che l'utente non è registrato
 
     console.log("l'utente non è registrato");
-    
-    
 }
